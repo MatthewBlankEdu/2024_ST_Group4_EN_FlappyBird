@@ -49,6 +49,7 @@ MonoBehaviour:
   Speed: -4
   XDespawnPoint: -4
   XSpawnPoint: 4
+  ShouldRandomizeY: 1
   YMin: -1
   YMax: 1
 --- !u!1001 &1483734097325578107
