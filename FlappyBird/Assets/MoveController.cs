@@ -25,7 +25,8 @@ public class MoveController : MonoBehaviour
     
     void Update()
     {
-        if (BirdController.GameOver)
+        //They only move if GameOver == false and HasStarted == true
+        if (BirdController.GameOver || !BirdController.HasStarted)
             return;
 
         transform.position = new Vector3(transform.position.x + Speed * Time.deltaTime,
